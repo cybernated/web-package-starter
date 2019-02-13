@@ -39,7 +39,7 @@
     "types": "index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/eigen-space/jest-screenshot-testing.git"
+        "url": "https://github.com/cybernated/web-package-starter.git"
     },
     "license": "MIT"
 }
