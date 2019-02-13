@@ -1,7 +1,7 @@
 {
     "name": "@arrival/web-package-starter",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
     "scripts": {
         "build": "webpack --config ./webpack.config.package.js --p --progress --mode production",
         "lint": "tslint 'src/**/*.{ts,tsx}'",
