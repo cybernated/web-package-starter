@@ -6,7 +6,7 @@
         "build": "webpack --config ./webpack.config.package.js --p --progress --mode production",
         "lint": "tslint 'src/**/*.{ts,tsx}'",
         "test": "jest",
-        "build:publish": "yarn lint && yarn test && yarn build && yarn publish ./dist --access public",
+        "build:publish": "yarn lint && yarn test && yarn build && yarn publish ./dist",
         "hooks:pre-commit": "yarn test && lint-staged"
     },
     "husky": {
