@@ -1,6 +1,6 @@
 {
     "name": "@arrival/web-package-starter",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "private": false,
     "scripts": {
         "build": "webpack --config ./webpack.config.package.js --p --progress --mode production",
