@@ -8,6 +8,7 @@ const packageJson = fs.readFileSync(path.resolve(__dirname, 'package.json'), 'ut
 const libraryName = JSON.parse(packageJson).name;
 
 module.exports = {
+    mode: 'production',
     entry: './src/package-api.js',
     output: {
         path: path.resolve(__dirname, 'dist'),

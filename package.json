@@ -3,10 +3,10 @@
     "version": "0.1.15",
     "private": false,
     "scripts": {
-        "build": "webpack --config ./webpack.config.package.js --p --progress --mode production",
+        "build": "webpack --config webpack.config.package.js --progress",
         "lint": "tslint 'src/**/*.{ts,tsx}'",
         "test": "jest",
-        "build:publish": "yarn lint && yarn test && yarn build && yarn publish dist",
+        "build:publish": "yarn lint && yarn test && yarn build && npm publish dist",
         "hooks:pre-commit": "yarn test && lint-staged"
     },
     "husky": {
