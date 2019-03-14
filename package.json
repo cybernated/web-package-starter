@@ -3,7 +3,8 @@
     "version": "0.1.15",
     "private": false,
     "scripts": {
-        "build": "webpack --config webpack.config.package.js --progress",
+        "build": "webpack --config webpack.config.package.js --progress && yarn bundle-dts",
+        "bundle-dts": "node node_modules/@eigenspace/helper-scripts/scripts/project/bundle-dts.js",
         "lint": "tslint --project tsconfig.json",
         "test": "jest",
         "build:publish": "yarn lint && yarn test && yarn build && npm publish dist",
@@ -22,11 +23,10 @@
     },
     "devDependencies": {
         "@eigenspace/codestyle": "latest",
-        "@eigenspace/helper-scripts": "1.0.44",
+        "@eigenspace/helper-scripts": "1.0.48",
         "@types/jest": "24.0.3",
         "clean-webpack-plugin": "1.0.1",
         "copy-webpack-plugin": "4.6.0",
-        "dts-bundle": "https://github.com/Danilqa/dts-bundle.git#build",
         "husky": "1.3.1",
         "jest": "23.6.0",
         "lint-staged": "8.1.3",
