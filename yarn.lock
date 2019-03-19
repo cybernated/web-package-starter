@@ -23,13 +23,6 @@
   resolved "https://artifacts.arrival.services:443/@eigenspace%2fcodestyle/-/codestyle-1.1.17.tgz#f555f701c98916a25dfd49cd3ff80fcf207749b1"
   integrity sha512-8CDjijYVoBAu6CqixjdDhqntwA4UB7+86WBM0xB/wc1L12azZlJli8JZr+5UuTbZFgh8GtQ0KQfG/R1c9EVYiQ==
 
-"@eigenspace/helper-scripts@1.0.48":
-  version "1.0.48"
-  resolved "https://artifacts.arrival.services:443/@eigenspace%2fhelper-scripts/-/helper-scripts-1.0.48.tgz#933c26a9028022568f3f36577440f0eeaaba246a"
-  integrity sha512-jiUtFnk8eYea33TZjMdsdnZV0CQfBbxClhrzyh1MXHS0k4+pkr37evNu4VATCxwGOpqfa15NbLJdEpto+zsabA==
-  dependencies:
-    minimist "1.2.0"
-
 "@types/jest@24.0.3":
   version "24.0.3"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.3.tgz#df8dc56565bd2d27fcbd099434f04f9891e16ab7"
@@ -3358,7 +3351,7 @@ minimist@0.0.8:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
   integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
 
-minimist@1.2.0, minimist@^1.1.1, minimist@^1.2.0:
+minimist@^1.1.1, minimist@^1.2.0:
   version "1.2.0"
   resolved "https://artifacts.arrival.services:443/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
   integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
