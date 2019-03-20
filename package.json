@@ -1,5 +1,5 @@
 {
-    "name": "@arrival/web-package-starter",
+    "name": "@eigenspace/web-package-starter",
     "version": "0.1.15",
     "private": false,
     "scripts": {
