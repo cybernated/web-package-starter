@@ -2,23 +2,6 @@
 
 A starter package for create library for using as dependency.
 
-# Why do we have that dev dependency?
-
-* `@eigenspace/codestyle` - contains type definitions for specific library.
-* `@types/*` - contains type definitions for specific library. 
-* `clean-webpack-plugin` - used for clean bundle before run building. 
-* `copy-webpack-plugin` - used for copy package.json in package bundle.
-* `dts-bundle` - it is used to pack all *.d.ts file into one bundle index.d.ts.
-* `husky` - used for configure git hooks.
-* `jest` - testing framework to write unit specs (including snapshots).
-* `lint-staged` - used for configure linters against staged git files.
-* `ts-jest` - it lets you use Jest to test projects written in TypeScript.
-* `ts-loader` - it is used to load typescript code with webpack.  
-* `tslint` - it checks TypeScript code for readability, maintainability, and functionality errors.
-* `typescript` - is a superset of JavaScript that have static type-checking and ECMAScript features.
-* `webpack` - it create app bundle for dev mode and production.
-* `webpack-cli` - cli for webpack, provides commands for tasks.
-
 # Project structure
 
 Project should adhere to this structure:
@@ -42,12 +25,12 @@ Project should adhere to this structure:
 
 # Why do we have that dev dependencies?
 
-* `@eigenspace/codestyle` - includes tslint rules, config for typescript.
+* `@eigenspace/codestyle` - includes lint rules, config for typescript.
 * `@types/*` - contains type definitions for specific library.
 * `jest` - testing framework to write unit specs (including snapshots).
 * `ts-jest` - it lets you use Jest to test projects written in TypeScript.
 * `ts-loader` - it is used to load typescript code with webpack. 
-* `tslint` - it checks TypeScript code for readability, maintainability, and functionality errors.
+* `eslint` - it checks code for readability, maintainability, and functionality errors.
 * `typescript` - is a superset of JavaScript that have static type-checking and ECMAScript features.
 See `webpack.config.js`.
 * `webpack` - it create app bundle for dev mode and production. 
