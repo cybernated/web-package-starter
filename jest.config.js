@@ -8,9 +8,7 @@ module.exports = {
         '<rootDir>/dist/'
     ],
     globals: {
-        'ts-jest': {
-            tsConfig: 'tsconfig.spec.json'
-        }
+        'ts-jest': { tsConfig: 'tsconfig.spec.json' }
     },
     testMatch: [
         '<rootDir>/src/**/*.spec.(ts|tsx)'
