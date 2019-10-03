@@ -28,6 +28,8 @@
     },
     "devDependencies": {
         "@eigenspace/codestyle": "latest",
+        "eslint-plugin-eigenspace-react": "latest",
+        "eslint-plugin-eigenspace-script": "latest",
         "@types/jest": "24.0.3",
         "clean-webpack-plugin": "1.0.1",
         "copy-webpack-plugin": "4.6.0",
