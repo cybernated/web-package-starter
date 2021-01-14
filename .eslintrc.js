@@ -1,6 +1,1 @@
-module.exports = {
-    extends: [
-        'plugin:eigenspace-script/all',
-        'plugin:eigenspace-react/all'
-    ]
-};
+module.exports = require('@eigenspace/codestyle/configs/eslint/eslint.base.js');
